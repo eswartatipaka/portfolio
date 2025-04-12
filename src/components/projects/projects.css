@@ -1,0 +1,147 @@
+/* Styling for the grid layout and tiles */
+.project__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-tile {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.project-image {
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-image:hover {
+  filter: grayscale(0%);
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.view-more, .view-code {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.view-code {
+  margin-left: auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto; 
+}
+
+
+.modal__content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal__content .subtitle-location {
+  font-size: var(--font-medium);
+}
+
+.modal__content .subsubtitle {
+  text-align: left;
+}
+
+.modal__content .tools {
+  text-align: left;
+}
+
+.modal__content .custom-bullets {
+  padding-left: 1rem;
+}
+
+.modal__content .custom-bullets li {
+  list-style-type: square;
+  text-align: justify;
+  padding-bottom: 0.75rem;
+}
+
+.modal__content .main-info {
+  text-align: justify;
+}
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+
+.modal__content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal__content::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.modal__content::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 768px) {
+  .project__container {
+    width: 75%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .project__container {
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+
+  .project-footer {
+    font-size: var(--small-font-size);
+  }
+  
+  .project__title {
+    font-size: var(--medium-font-size);
+  }
+}
