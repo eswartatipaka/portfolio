@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ce262fe3.css",
-    "main.js": "/portfolio/static/js/main.9d2d5b72.js",
+    "main.js": "/portfolio/static/js/main.ad12d4ca.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/eswar.t.jpg": "/portfolio/static/media/eswar.t.b7d888977f9b687a6f26.jpg",
     "static/media/Eswar.jpg": "/portfolio/static/media/Eswar.d17ecbe4a6c1c3c4f8cd.jpg",
     "static/media/project1.jpg": "/portfolio/static/media/project1.eaebbab81451f261b3b9.jpg",
     "static/media/project2.jpg": "/portfolio/static/media/project2.f62785ce37acc8062a79.jpg",
-    "static/media/eswar.tatipaka .pdf": "/portfolio/static/media/eswar.tatipaka .95edd3290f6e91153dbb.pdf",
+    "static/media/eswar.tatipaka .pdf": "/portfolio/static/media/eswar.tatipaka .481a41bbe8227f157751.pdf",
     "static/media/project3.jpg": "/portfolio/static/media/project3.2b4a3bc608073462a7e1.jpg",
     "static/media/project5.jpg": "/portfolio/static/media/project5.7c559f38d089c0ac9785.jpg",
     "index.html": "/portfolio/index.html",
     "main.ce262fe3.css.map": "/portfolio/static/css/main.ce262fe3.css.map",
-    "main.9d2d5b72.js.map": "/portfolio/static/js/main.9d2d5b72.js.map",
+    "main.ad12d4ca.js.map": "/portfolio/static/js/main.ad12d4ca.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce262fe3.css",
-    "static/js/main.9d2d5b72.js"
+    "static/js/main.ad12d4ca.js"
   ]
 }
